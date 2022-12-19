@@ -18,5 +18,5 @@ Project on ETL using Airflow, Postgresql and FastAPI. The IMDb datasets led to t
 >
 > password: airflow
 5. Trigger the `download_imdb_datasets` DAG and both  DAGS: `create_tables` and  `etl_imdb` will be triggered after the first one has finished. 
-8. Visit `FastAPI` at `http://127.0.0.1:8000/docs` and choose a category to return the list
+8. Visit `FastAPI` at `http://127.0.0.1:8000/docs` and write a category (director,actress,actor) to return the list
 
