@@ -2,10 +2,7 @@
 Simple application that builds a basic ETL pipeline that allows to extract, transform and load the data from IMDb
 
 ## Introduction
-Project on ETL using Airflow, Postgresql and FastAPI. The IMDb datasets led to the following schema:
-<p align="center">
-  <img src="./images/schema.png" />
-</p>
+Project on ETL using Airflow, Postgresql and FastAPI.
 
 ## Steps
 1. Change the values in `airflow/config.json`
